@@ -17,20 +17,17 @@
 }
 ul {
     display: flex;
-    
     list-style: none;
     margin-right: 128px;   
-    
     gap: 32px;
 }
-a{
+a {
     text-decoration: none;
-    color: #e5e7eb;
-    
+    color: #e5e7eb;   
 }
 .header-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-between;
     margin-left: 128px;
     margin-right: 128px;
@@ -69,4 +66,72 @@ button {
     background-color: #3882f6;
     border-radius: 8px;
     max-width: 150px;
+}
+.body-container-one {
+    font-family: Roboto, sans-serif;
+}
+.body-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+.body-content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 30px;
+    padding-left: 128px;
+    padding-right: 128px;
+
+}
+.image-one {
+    border: 3px solid #3882f6;
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    border-radius: 8px; 
+}
+.image-two {
+    border: 3px solid #3882f6;
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    border-radius: 8px; 
+}
+.image-three {
+    border: 3px solid #3882f6;
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    border-radius: 8px; 
+}
+.image-four {
+    border: 3px solid #3882f6;
+    min-height: 150px;
+    max-height: 150px;
+    min-width: 150px;
+    max-width: 150px;
+    border-radius: 8px; 
+}
+.text-container {
+    display: flex;
+    justify-content: center;
+    gap: 36px;   
+}
+.body-text {
+    display: flex;
+    justify-content: center;
+    max-width: 150px;
+    
 }
