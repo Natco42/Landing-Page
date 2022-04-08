@@ -61,7 +61,7 @@ a {
     min-height: 200px;
     flex: 0 0 auto;
 }
-button {
+.header-button {
     color: #f9faf8;
     background-color: #3882f6;
     border-radius: 8px;
@@ -86,10 +86,9 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
-    gap: 30px;
-    padding-left: 128px;
-    padding-right: 128px;
+    justify-content: center;
+    gap: 40px;
+    
 
 }
 .image-one {
@@ -134,4 +133,67 @@ button {
     justify-content: center;
     max-width: 150px;
     
+}
+.quote-section {
+    background-color: #e5e7eb;
+    min-height: 300px;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+.quote-one {       
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    min-width: 750px;
+}
+.quote-two {
+    justify-content: flex-end;
+    font-weight: bolder;
+    
+}
+.call-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: #f9faf8;
+    color: #f9faf8;
+    font-family: sans-serif;
+    
+}
+.blue-container {
+    background-color: #3882f6;
+    display: flex;
+    max-height: 100px;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 100px;
+    padding: 50px;
+    min-width: 850px;
+    border-radius: 8px;    
+}
+.sign-up-button {
+    background-color: #3882f6;
+    border-radius: 8px;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+}
+.time {
+    font-weight: bold;
+}
+.footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
 }
